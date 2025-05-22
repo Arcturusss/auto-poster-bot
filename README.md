@@ -64,9 +64,9 @@ node index
 
 mohon sebanget bangetnya buat sepuh bisa banget kontribusi melalui
 
-[ Kontribusi disini ]()
+[ Kontribusi disini ](https://github.com/Arcturusss/auto-poster-bot/pulls)
 
-[ Issue disini ]()
+[ Issue disini ](https://github.com/Arcturusss/auto-poster-bot/issues/1)
 
 ---
 
