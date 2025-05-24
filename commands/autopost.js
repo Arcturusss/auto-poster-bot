@@ -36,6 +36,9 @@ module.exports = {
         'Content-Type': 'application/json',
       };
 
+      let logCounter = 1; // if use webhook
+      
+      
       const postLoop = async () => {
         try {
           await axios.post(
@@ -47,8 +50,9 @@ module.exports = {
 
           if (logWebhook) {
             await axios.post(logWebhook, {
-              content: `Message posted to <#${id}>`,
+              content: `Message posted to <#${id}> #${logCounter}`,
             });
+            logCounter++;
             console.log(`Sending information ${id}`);
           }
         } catch (err) {
